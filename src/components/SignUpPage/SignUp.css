@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.SignUp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212 210 210 / 49%);
+    height: 100vh;
+    width: 100%;
+}
+
+.SignUp-NavLink {
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+.SignUp-NavLink-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: -1rem; */
+    /* gap: 1rem; */
+}
+/* .SignUp-container2{
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+} */
+.SignUp-NavLink2 {
+    text-decoration: none;
+    margin-left: 77rem;
+    
+}
+
+.signUp-img {
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+}
+
+.form {
+    background-color: white;
+    height: 30rem;
+    width: 52rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form2 {
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form3 {
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    transform: scale(1.5);
+}
+.form1-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    transform: scale(1.5);
+}
+
+.form1>label {
+    font-family: 'Lucida Sans';
+    margin-bottom: 0.5rem;
+    color: rgb(144, 5, 250);
+    font-weight: bold;
+}
+
+.form2>h1 {
+    color: rgb(116 25 185);
+}
+
+
+.form1>span>input {
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 1.6rem;
+    background-color: rgb(227, 236, 236, );
+    padding-left: 12px;
+}
+
+.form1>span {
+    display: flex;
+}
+
+.btn {
+    margin-top: 3rem !important;
+
+}
+
+
+/***********************Media quary*********************/
+
+/* media query for small laptop */
+@media only screen  and (max-width: 1200px) and (min-width: 770px){
+    /* .SignIn-container{
+        
+    } */
+}
+@media only screen  and (max-width: 770px) and (min-width: 430px){
+    .SignUp-container{
+        height: fit-content;
+    }
+    .form{
+        transform: scale(0.82) ;
+        flex-direction: column !important;
+        height: 60rem !important;
+        width: 36rem !important;
+        
+    }
+}
+
+@media only screen  and (max-width: 430px) and (min-width: 376px)  {
+    .SignUp-container{
+        height: fit-content;
+    }
+    .form{
+        transform: scale(0.78) ;
+        flex-direction: column !important;
+        height: 56rem !important;
+        width: 28rem !important;
+        
+    }
+    .form-signUp{
+        height: 60rem !important;
+    }
+}
+
+@media only screen  and (max-width: 376px){
+    .SignUp-container{
+        height: fit-content;
+        width: fit-content;
+        /* margin-left: -1rem; */
+    }
+    .form{
+        transform: scale(0.74) ;
+        flex-direction: column !important;
+        height: 55rem !important;
+        width: 24rem !important;
+        
+    }
+    .form-signUp{
+        height: 60rem !important;
+    }
+}
